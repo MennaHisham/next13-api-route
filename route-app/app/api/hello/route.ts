@@ -1,7 +1,7 @@
 import { redirect } from 'next/navigation';
 
 export async function GET(request: Request) {
-  // redirect('http://localhost:3000');
+  redirect('http://localhost:3000');
 }
 
 export async function POST(req: Request) {
